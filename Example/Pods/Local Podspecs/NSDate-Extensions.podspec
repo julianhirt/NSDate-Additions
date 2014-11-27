@@ -9,11 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "NSDate-Extensions"
-  s.version          = "0.0.1"
+  s.version          = "0.1.0"
   s.summary          = "A short description of NSDate-Extensions."
   s.description      = <<-DESC
-                       Helpful extensions for NSDate by @erica.
-                       Fork from https://github.com/erica/NSDate-Extensions
+                       An optional longer description of NSDate-Extensions
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
@@ -22,7 +21,8 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Dedunovich Svetlana" => "lumenela@gmail.com" }
-  s.source           = { :git => "https://github.com/Lumenela/NSDate-Extensions.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/NSDate-Extensions.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -32,4 +32,7 @@ Pod::Spec.new do |s|
     'NSDate-Extensions' => ['Pod/Assets/*.png']
   }
 
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end

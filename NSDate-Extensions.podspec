@@ -10,15 +10,14 @@
 Pod::Spec.new do |s|
   s.name             = "NSDate-Extensions"
   s.version          = "0.0.1"
-  s.summary          = "A short description of NSDate-Extensions."
+  s.summary          = "Helpful extensions for NSDate by @erica."
   s.description      = <<-DESC
-                       Helpful extensions for NSDate by @erica.
                        Fork from https://github.com/erica/NSDate-Extensions
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/NSDate-Extensions"
+  s.homepage         = "https://github.com/Lumenela/NSDate-Extensions"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Dedunovich Svetlana" => "lumenela@gmail.com" }

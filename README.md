@@ -20,9 +20,8 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Dedunovich Svetlana, lumenela@gmail.com
+Fork from Erica Sadun https://github.com/erica/NSDate-Extensions with fixes for some warnings.
 
 ## License
 
 NSDate-Extensions is available under the MIT license. See the LICENSE file for more info.
-

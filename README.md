@@ -14,11 +14,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 NSDate-Extensions is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "NSDate-Extensions"
+    pod "NSDate-Additions"
 
 ## Author
 
-Fork from Erica Sadun https://github.com/erica/NSDate-Extensions with fixes for some warnings.
+Fork from Erica Sadun https://github.com/erica/NSDate-Extensions with fixes for warnings.
 
 ## License
 

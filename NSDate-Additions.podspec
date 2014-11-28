@@ -9,16 +9,15 @@
 
 Pod::Spec.new do |s|
   s.name             = "NSDate-Additions"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "Helpful additions for NSDate."
   s.description      = <<-DESC
                        Fork from Erica https://github.com/erica/NSDate-Extensions
-
+                       with fixed warnings
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/Lumenela/NSDate-Extensions"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Dedunovich Svetlana" => "lumenela@gmail.com" }
   s.source           = { :git => "https://github.com/Lumenela/NSDate-Extensions.git", :tag => s.version.to_s }

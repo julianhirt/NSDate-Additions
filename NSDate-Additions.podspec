@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NSDate-Additions"
-  s.version          = "0.0.3"
+  s.version          = "0.0.4"
   s.summary          = "Helpful additions for NSDate."
   s.description      = <<-DESC
                        Fork from Erica https://github.com/erica/NSDate-Extensions

@@ -76,7 +76,7 @@
 		938C62CCB5A62C43ED897695 /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = F567DCF4C155EC620B8E3BA5 /* EXPMatchers+equal.h */; };
 		9778DCC9971C413E25ED23B8 /* Pods-Tests-NSDate-Additions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5F64877960941DF4E3803 /* Pods-Tests-NSDate-Additions-dummy.m */; };
 		990FDED9A5DD40BA81E1A4C0 /* EXPBackwardCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9ECEAED212D0218DC8B062 /* EXPBackwardCompatibility.h */; };
-		A19E00311A279E68009FE5CD /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A19E002F1A279E68009FE5CD /* NSDate+Utilities.m */; };
+		A1C3B4D41A2868C1003F753A /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3B4D31A2868C1003F753A /* NSDate+Additions.m */; };
 		A4FF4AE5C50D53F4A517EE0E /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0E1DC368CE42EC31E9EC /* EXPMatchers+beginWith.m */; };
 		A78E650824FB6032781204EC /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE0E02351225C5287129299 /* EXPBlockDefinedMatcher.h */; };
 		A978E9E8C80B7C51CE345879 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952F54AD4CC0A167CB9E1D8 /* EXPMatchers+beKindOf.m */; };
@@ -262,8 +262,8 @@
 		9EB0C710B9851CC2AEFA2548 /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "src/matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
 		9F85C0E2306F2BD0131C6ED0 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A17C0B564C6C4B9026471F68 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "src/matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
-		A19E002E1A279E68009FE5CD /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
-		A19E002F1A279E68009FE5CD /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		A1C3B4D21A2868C1003F753A /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Additions.h"; path = "../../../NSDate-Additions/Pod/Classes/NSDate+Additions.h"; sourceTree = "<group>"; };
+		A1C3B4D31A2868C1003F753A /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Additions.m"; path = "../../../NSDate-Additions/Pod/Classes/NSDate+Additions.m"; sourceTree = "<group>"; };
 		A260D7C49A0EA8BE57B6C2F8 /* Pods-NSDate-Additions-NSDate-Additions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDate-Additions-NSDate-Additions.xcconfig"; sourceTree = "<group>"; };
 		A4D47051FEB942160499E53E /* SPTReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTReporter.h; path = src/SPTReporter.h; sourceTree = "<group>"; };
 		A56927DC3D5370EB99BBD0E3 /* XCTestLog+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestLog+Specta.h"; path = "src/XCTestLog+Specta.h"; sourceTree = "<group>"; };
@@ -497,8 +497,8 @@
 		A19E002C1A279E68009FE5CD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A19E002E1A279E68009FE5CD /* NSDate+Utilities.h */,
-				A19E002F1A279E68009FE5CD /* NSDate+Utilities.m */,
+				A1C3B4D21A2868C1003F753A /* NSDate+Additions.h */,
+				A1C3B4D31A2868C1003F753A /* NSDate+Additions.m */,
 			);
 			name = Classes;
 			path = "../NSDate-Additions 1/Pod/Classes";
@@ -909,7 +909,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A19E00311A279E68009FE5CD /* NSDate+Utilities.m in Sources */,
+				A1C3B4D41A2868C1003F753A /* NSDate+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

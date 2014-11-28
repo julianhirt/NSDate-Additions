@@ -12,13 +12,13 @@
  Include GMT and time zone utilities?
 */
 
-#import "NSDate+Utilities.h"
+#import "NSDate+Additions.h"
 
 // Thanks, AshFurrow
 static const unsigned componentFlags = (NSCalendarUnitYear| NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitWeekOfYear |  NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitWeekday | NSCalendarUnitWeekdayOrdinal);
 
 
-@implementation NSDate (Utilities)
+@implementation NSDate (Additions)
 
 // Courtesy of Lukasz Margielewski
 // Updated via Holger Haenisch
